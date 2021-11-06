@@ -1,0 +1,10 @@
+collections_root: collections
+archive_paths: archive
+index_paths: indexes
+
+# Magic "catch all" collection, that makes urls work across multiple capture sessions
+collections:
+  all: $all
+
+proxy:
+  coll: tg21

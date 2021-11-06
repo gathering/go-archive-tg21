@@ -1,0 +1,14 @@
+seeds:
+  - url: https://www.gathering.org/tg21/
+    include: www.gathering.org/(tg21|api)
+
+behaviors: autoscroll,autoplay,autofetch,siteSpecific
+collection: tg21
+waitUntil: load,networkidle0
+screencastPort: 9037
+combineWARCs: true
+generateCDX: true
+
+warcinfo:
+  operator: The Gathering
+  hostname: gathering.org
